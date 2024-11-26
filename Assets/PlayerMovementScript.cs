@@ -15,6 +15,9 @@ public class PlayerMovementScript : MonoBehaviour
     public float airMultiplayer;
     bool readyToJump = true;
 
+    [Header("Keybinds")]
+    public KeyCode jumpKey = KeyCode.Space;
+
     [Header("Ground Check")]
     public float playerHeight;
     public LayerMask whatIsGround;
